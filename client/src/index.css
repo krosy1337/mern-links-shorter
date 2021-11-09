@@ -1,0 +1,248 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+@import "~normalize.css/normalize.css";
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+}
+
+body {
+    color: #388087;
+    color: #6fb3b8;
+    color: #badfe7;
+    color: #c2edce;
+    color: #f6f6f2;
+
+
+    color: #000;
+
+    background-color: #f6f6f2;
+
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.auth__title {
+    font-size: 50px;
+
+    color: #388087;
+}
+
+.carda {
+    background-color: #6fb3b8;
+
+    padding: 20px;
+
+    border-radius: 2px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+
+    max-width: 400px;
+    width: 100%;
+}
+
+.carda__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.carda__title {
+    font-size: 24px;
+
+    margin-bottom: 10px;
+}
+
+.carda__inputs {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-bottom: 40px;
+}
+
+.carda__action {
+    display: flex;
+    justify-content: center;
+}
+
+.carda__btn {
+    border-radius: 2px;
+
+    border: none;
+
+    outline: none;
+
+    padding: 5px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    background-color: transparent;
+
+    transition: .2s;
+}
+
+.login-btn {
+    color: #f6f6f2;
+
+    border: 1px solid #badfe7;
+}
+
+.login-btn:hover {
+    background-color: #badfe7;
+
+    color: #6fb3b8;
+}
+
+.register-btn {
+    border: 1px solid #c2edce;
+
+    background-color: transparent;
+
+    color: #f6f6f2;
+}
+
+.register-btn:hover {
+    color: #6fb3b8;
+
+    background-color: #c2edce;
+}
+
+.carda__input.input:not(.browser-default) {
+    outline: none;
+
+    border: none;
+
+    border-bottom: 2px solid #f6f6f2;
+
+    border-radius: 2px;
+
+    width: 100%;
+
+    padding: 2px;
+
+    height: 40px;
+
+    margin: 0;
+
+    font-size: 18px;
+
+    box-sizing: border-box;
+
+    background-color: #fff;
+}
+
+.carda__input-field {
+    width: 80%;
+}
+
+.carda__input-field + .carda__input-field {
+    margin-top: 20px;
+}
+
+.header {
+    background-color: #6fb3b8;
+
+    color: #fff;
+
+    height: 50px;
+}
+
+.header__container {
+    padding: 0 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+.header__logo {
+    font-size: 26px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+
+    height: 100%;
+}
+
+.header__menu-link {
+    color: #fff;
+
+    padding: 10px;
+
+    text-decoration: none;
+}
+
+.header__menu-li {
+    transition: .2s;
+
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+}
+
+.header__menu-li:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.create {
+
+}
+
+.create__input.input:not(.browser-default) {
+    border: none;
+    border-bottom: 1px solid #6fb3b8;
+
+    box-sizing: border-box;
+
+    color: #6fb3b8;
+
+    width: 100%;
+    height: 3rem;
+
+    font-size: 20px;
+
+    background-color: transparent;
+
+    outline: none;
+
+    
+
+    transition: .2s;
+}
+
+.create__input.input:not(.browser-default)::placeholder {
+    color: #d7d7d7;
+}
+
+.create__input.input:not(.browser-default):focus {
+    border-bottom: 2px solid #6fb3b8;
+}
+
